@@ -1,3 +1,28 @@
+
+# 部署指南
+
+```
+yum install -y go
+go get github.com/astaxie/beego
+go get github.com/beego/bee
+go get github.com/BurntSushi/graphics-go/graphics
+go get github.com/zheng-ji/goSnowFlake
+go get github.com/oliamb/cutter
+go get github.com/gomodule/redigo/redis
+go get github.com/bradfitz/gomemcache/memcache
+
+cd ~/go/src
+echo 'export PATH=$PATH:/root/go/src/bin' >> ~/.zshrc
+souce ~/.zshrc
+git clone https://github.com/lock-upme/OPMS.git
+mv OPMS opms
+cd opms
+vi conf/app.conf # change mysql password
+mysql -uroot -pxxx -Daiopms < statics/db/aiopms.sql # create aiopms database first !
+bee run
+
+```
+
 # OPMS
 OPMS项目+OA管理系统
 
