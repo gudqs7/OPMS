@@ -10,6 +10,7 @@ go get github.com/zheng-ji/goSnowFlake
 go get github.com/oliamb/cutter
 go get github.com/gomodule/redigo/redis
 go get github.com/bradfitz/gomemcache/memcache
+go get github.com/go-sql-driver/mysql
 
 cd ~/go/src
 echo 'export PATH=$PATH:/root/go/src/bin' >> ~/.zshrc
@@ -40,39 +41,6 @@ OPMS的由来：
 
 结合实际的项目要求和人事的日常工作经验要求，于是OPMS管理系统诞生了！
 
-# 新品地址：https://www.zhidieyun.com/
-
-OPMS官网：
-
-http://opms.milu365.cn/
-
-手册文档：
-
-http://opms.docs.milu365.cn/
-
-在线体验：
-
-http://opms.demo.milu365.cn/
-
-加QQ群（871221961）获取用户名和密码
-
-技术讨论群：
-
-# QQ群1(已满)：451420312 
-# QQ群2(已满)：592130397 
-# QQ群3(已满)：651479008
-# QQ群4(已满)：660307579
-# QQ群5(已满): 753661431 
-# QQ群6: 871221961
-
-# 捐赠
-支付宝：
-
-![image](https://github.com/lock-upme/OPMS/blob/master/static/img/qrcode_alipay.png)
-
-微信:
-
-![image](https://github.com/lock-upme/OPMS/blob/master/static/img/qrcode_wechat.png)
 
 # 效果图预览
 
